@@ -125,9 +125,9 @@ extraEnvVarsCM: ""
 extraEnvVarsSecret: ""
 ## @section NGINX deployment parameters
 
-## @param replicaCount Number of NGINX replicas to deploy
+# @param replicaCount Number of NGINX replicas to deploy
 ##
-replicaCount: 3
+replicaCount: 1
 ## @param revisionHistoryLimit The number of old history to retain to allow rollback
 ##
 revisionHistoryLimit: 10
